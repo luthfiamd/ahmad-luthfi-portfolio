@@ -17,7 +17,7 @@ export const SITE = {
   phone: "+62 822-1840-9228",
   phoneHref: "+6282218409228",
   linkedin: "https://www.linkedin.com/in/ahmad-luthfi-4033a31b4/", // TODO: ganti dengan URL LinkedIn asli kamu
-  cvFile: "/Ahmad-Luthfi-CV.pdf",
+  cvFile: `${import.meta.env.BASE_URL}Ahmad-Luthfi-CV.pdf`,
   // Judul peran sengaja tidak diterjemahkan — ini keyword yang dicari recruiter/ATS.
   targetRoles: ["Product Manager", "Project Manager", "Technical Product Manager"],
 };
